@@ -1,8 +1,13 @@
 plugins {
     id("java")
+    id("application")
 }
 
-group = "org_kbhia"
+application {
+    mainClass = "org.kbhia.Main"
+}
+
+group = "org.kbhia"
 version = "1.0-SNAPSHOT"
 
 repositories {
